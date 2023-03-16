@@ -1,10 +1,13 @@
-import {GrandmaComponent} from './context/GrandmaComponent'
+
 import './App.css';
+import SituationComponent from './context/SituationComponent';
+
 
 function App() {
   return (
     <div className="App">
-   <GrandmaComponent/>
+      <SituationComponent/>
+   
     </div>
   );
 }
